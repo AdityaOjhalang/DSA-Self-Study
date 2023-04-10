@@ -1,0 +1,11 @@
+{
+	"files.associations": {
+		"iostream": "cpp",
+		"__bit_reference": "cpp",
+		"algorithm": "cpp",
+		"ostream": "cpp",
+		"ratio": "cpp",
+		"*.rmd": "markdown",
+		"istream": "cpp"
+	}
+}
