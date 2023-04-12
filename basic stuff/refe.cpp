@@ -1,7 +1,7 @@
 #include<iostream>
 #include <stdio.h>
 #include <cmath>
-
+#include <bits/stdc++.h> 
 using namespace std;
 
 int main(){
