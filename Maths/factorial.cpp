@@ -13,7 +13,7 @@ class Solution{
         // Complete this function
     long long factorial(int n) {
         // Your code here
-        if(n<=0)
+        if(n==0)
         return 1;
         else
         return( n * factorial(n-1));

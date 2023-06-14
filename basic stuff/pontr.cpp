@@ -16,7 +16,8 @@ int main()
 	// pointer to an array
 	int a[5] = {2, 3, 4, 5, 6};
 	int *b;
-	b = a; // a of an array stores the address of the first variable and hence can be put equal to b;
+	b = a;
+	// a of an array stores the address of the first variable and hence can be put equal to b;
 	// cout << b << endl;
 	// cout << *b << endl;
 	b = &a[0];
