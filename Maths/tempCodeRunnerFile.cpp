@@ -1,13 +1,3 @@
-	while(isDivisible) {
-		if(fact % 10 == 0){
-			counter++;	
-			fact = fact/10;
-			
-
-		}
-		else {
-		isDivisible = false;
-		cout<< counter;
-		}
-		
-	}
+cout<< "GCD for them through Naive is : "<< gcdnaive(a,b) << endl ;
+	cout<< "GCD for them through Naive is : "<< gcdeuclideanNaive(a,b) << endl;
+	cout<< "GCD for them through Naive is : "<< gcdeuclideanBEST(a,b) << endl;

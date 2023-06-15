@@ -29,13 +29,23 @@ int gcdeuclideanBEST(int x , int y){
 	else
 	return gcdeuclideanBEST(y,x%y);
 }
+
+int lcm ( int x , int y){
+	int prod = x*y;
+	int gcd = gcdeuclideanBEST(x,y);
+	int lcm = prod/gcd;
+	return lcm;
+}
 int main(){
 	int a,b;
-	cin >> a >> b;
-
+	a = 16 ;
+	b = 20;
+	
 	cout<< "GCD for them through Naive is : "<< gcdnaive(a,b) << endl ;
 	cout<< "GCD for them through Naive is : "<< gcdeuclideanNaive(a,b) << endl;
 	cout<< "GCD for them through Naive is : "<< gcdeuclideanBEST(a,b) << endl;
+	cout<<lcm(a,b);
+
 
 
 }
