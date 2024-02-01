@@ -3,7 +3,7 @@ using namespace std;
 
 void printSub(string str, string curr, int index)
 {	
-	cout<<"Recursive call made "<<endl;
+	cout<<"Recursive call made in this "<<endl;
 	if (index == str.length())
 	{
 		cout << curr << endl;
