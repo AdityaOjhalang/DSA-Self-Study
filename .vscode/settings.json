@@ -1,5 +1,6 @@
 {
 	"files.associations": {
+		"*.ejs": "html",
 		"iostream": "cpp",
 		"__bit_reference": "cpp",
 		"algorithm": "cpp",
@@ -83,7 +84,9 @@
 		"unordered_set": "cpp",
 		"valarray": "cpp",
 		"variant": "cpp",
-		"vector": "cpp"
+		"vector": "cpp",
+		"__verbose_abort": "cpp",
+		"charconv": "cpp"
 	},
 	"C_Cpp.errorSquiggles": "enabled"
 }
