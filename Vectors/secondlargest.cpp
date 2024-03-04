@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-	vector<int> v = {1, 2, 999999999, 4, 10000};
+	vector<int> v = {5,20,12,20,8};
 	int largest = 0;
 	int secondlargest = -1;
 
