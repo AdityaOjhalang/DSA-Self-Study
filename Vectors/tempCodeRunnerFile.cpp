@@ -1,20 +1,17 @@
-#include<iostream>
-#include <vector>
-using namespace std;
-
-bool checkarr(vector<int> arr) {
-	// Your code here
-
-	for(int i = 0 ; i < arr.size() ; i++){
-		if(arr[i] > arr[i+1]){
-			return false;
-			break;
+int maxProfit(vector<int>& prices) {
+	int n = prices.size();
+	int maxProfit = 0;
+	int minPrice = prices[0]; // Initialize the minimum price to the first element
+	
+	for (int i = 1; i < n; i++) {
+		int profit = prices[i] - minPrice;
+		if (profit > maxProfit) {
+			maxProfit = profit;
+		}
+		if (prices[i] < minPrice) {
+			minPrice = prices[i];
 		}
 	}
-	return true;
-
-}
-int main(){
-	vector<int> v = {1,3,2,4,5};
-	cout<< checkarr(v) << endl;
+	
+	return maxProfit;
 }
