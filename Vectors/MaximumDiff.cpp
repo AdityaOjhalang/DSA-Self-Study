@@ -1,7 +1,6 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-
 /**
  * Calculates the maximum difference between any two elements in the given vector.
  * This function uses an efficient algorithm to find the maximum difference.
