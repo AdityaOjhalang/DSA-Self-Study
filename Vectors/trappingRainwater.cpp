@@ -61,7 +61,7 @@ int trapping_rain_twopointer(vector<int> arr)
 	int waterTrapped = 0;
 	while (l < r)
 	{
-		if (lmax > rmax)
+		if (lmax < rmax)
 		{
 			l++;
 			lmax = max(arr[l], lmax);
@@ -79,7 +79,7 @@ int trapping_rain_twopointer(vector<int> arr)
 }
 int main()
 {
-	vector<int> arr = {0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1}; // Example input
+	vector<int> arr = {3,0,1,2,5}; // Example input
 	cout << "Water trapped: " << trapping_rain_twopointer(arr) << endl;
 	return 0;
 }
